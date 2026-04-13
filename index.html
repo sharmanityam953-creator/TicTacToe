@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Advanced Tic Tac Toe</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<h1>AI Tic Tac Toe</h1>
+
+<div class="controls">
+  <label>Board Size:</label>
+  <select id="size">
+    <option value="3">3x3</option>
+    <option value="4">4x4</option>
+  </select>
+
+  <button id="reset-btn">Reset</button>
+</div>
+
+<div class="container">
+  <div id="game" class="game"></div>
+</div>
+
+<div id="tree"></div>
+
+<div class="msg-container hide">
+  <p id="msg"></p>
+  <button id="new-btn">New Game</button>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
